@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081013"/>
+      <stop offset="50%" stop-color="#0D1A1F"/>
+      <stop offset="100%" stop-color="#122329"/>
+    </linearGradient>
+
+    <!-- Subtle Radial Glow behind Delta Wing -->
+    <radialGradient id="glow" cx="82%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#4FC7C4" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#0E6466" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#081013" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1"/>
+    </pattern>
+
+    <!-- Linear Accent for Line -->
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4FC7C4"/>
+      <stop offset="50%" stop-color="#FF5C73"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+
+  <!-- Left Accent Vertical Bar -->
+  <rect x="0" y="0" width="4" height="320" fill="#4FC7C4"/>
+
+  <!-- Top Status Bar / Terminal Prompt -->
+  <g transform="translate(64, 48)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" font-size="13" font-weight="500" fill="#4FC7C4" letter-spacing="0.08em">
+      ~/pilotarbuza $ whoami
+    </text>
+    <text x="175" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" font-size="12" font-weight="400" fill="#6E8489" letter-spacing="0.06em">
+      · KONYA, TR · UTC+3
+    </text>
+  </g>
+
+  <!-- Main Name & Callout -->
+  <g transform="translate(64, 114)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#F3EDE4" letter-spacing="-0.02em">
+      Maksim Akhmadulin
+    </text>
+    <text x="445" y="-4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" font-size="16" font-weight="600" fill="#FF5C73">
+      @pilot_arbuza
+    </text>
+  </g>
+
+  <!-- Specialization Subtitle -->
+  <g transform="translate(64, 154)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#97B0B4" letter-spacing="-0.01em">
+      Mechanical Engineering <tspan fill="#4FC7C4">·</tspan> CAD Automation <tspan fill="#4FC7C4">·</tspan> Aviation AI Systems
+    </text>
+  </g>
+
+  <!-- Horizontal Accent Divider -->
+  <rect x="64" y="184" width="560" height="1.5" fill="url(#accent-line)"/>
+
+  <!-- Status / Domain Chips -->
+  <g transform="translate(64, 218)">
+    <!-- Chip 1: Selcuk University -->
+    <g transform="translate(0, 0)">
+      <rect width="186" height="30" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)"/>
+      <circle cx="16" cy="15" r="4" fill="#4FC7C4"/>
+      <text x="28" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#C5D3D6">
+        Selçuk University, BSc
+      </text>
+    </g>
+
+    <!-- Chip 2: SolidWorks / Fusion -->
+    <g transform="translate(196, 0)">
+      <rect width="176" height="30" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)"/>
+      <circle cx="16" cy="15" r="4" fill="#D9AF8E"/>
+      <text x="28" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#C5D3D6">
+        SOLIDWORKS · Ansys
+      </text>
+    </g>
+
+    <!-- Chip 3: Aviation RAG -->
+    <g transform="translate(382, 0)">
+      <rect width="168" height="30" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)"/>
+      <circle cx="16" cy="15" r="4" fill="#FF5C73"/>
+      <text x="28" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#C5D3D6">
+        Aviation RAG &amp; MCP
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Decorative Vector: Delta Wing Chevron & Watermelon Wing Element -->
+  <g transform="translate(1040, 60)">
+    <!-- Watermelon Aviation Wing Silhouette (from pilotarbuza.com brand) -->
+    <path d="M110 95 L-10 15 Q-40 95 -10 175 Z" fill="#FF5C73" opacity="0.12"/>
+    <path d="M-10 15 Q-40 95 -10 175" fill="none" stroke="#4FC7C4" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+    
+    <!-- Crisp Vector Chevron (Delta Wing) -->
+    <path d="M60 20 L130 140 L105 140 L60 60 L15 140 L-10 140 Z" fill="#F3EDE4" opacity="0.95"/>
+    <path d="M60 85 L95 145 L78 145 L60 110 L42 145 L25 145 Z" fill="#F3EDE4" opacity="0.6"/>
+    <!-- Red Square Accent on Delta Tip -->
+    <rect x="126" y="136" width="12" height="12" fill="#FF5C73"/>
+  </g>
+
+  <!-- Bottom Technical Coordinate Stamp -->
+  <g transform="translate(1180, 290)">
+    <text text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" font-size="10" font-weight="500" fill="#4B6166" letter-spacing="0.12em">
+      ELEV 1016M · LTAN / KY
+    </text>
+  </g>
+</svg>
