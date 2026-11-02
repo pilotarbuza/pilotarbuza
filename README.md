@@ -1,58 +1,50 @@
 <p align="center">
-  <img src="banner.svg" alt="Maksim Akhmadulin (pilot_arbuza) — Mechanical Engineering, CAD Automation, Aviation AI Systems" width="100%">
+  <img src="banner.svg" alt="Maksim Akhmadulin (pilot_arbuza): mechanical engineering, CAD automation, aviation software" width="100%">
 </p>
 
 ## About
 
-Mechanical engineering student at Selcuk University (Konya, Türkiye; Türkiye Scholarships) and BSc Computer Engineering student at SibSUTIS. Finalist of the XX Aviation Olympiad by Sukhoi Design Bureau (2024).
+I study mechanical engineering at Selçuk University in Konya, Türkiye, on a Türkiye Scholarship, and computer engineering by distance at SibSUTIS. In 2024 I reached the final of the 20th Aviation Olympiad run by the Sukhoi Design Bureau.
 
-I build at the intersection of mechanical engineering, aerospace systems, and AI automation. My core focus is developing Model Context Protocol (MCP) servers and automated design pipelines for parametric CAD (SOLIDWORKS and Autodesk Fusion), as well as building semantic RAG architectures for technical aviation documentation (FCOM, QRH, MEL).
+Most of what I build sits between mechanical engineering, aircraft and AI. Right now that means MCP (Model Context Protocol) servers and design pipelines for parametric CAD in SOLIDWORKS and Autodesk Fusion, plus RAG search over aviation manuals such as FCOM, QRH and MEL.
 
-Active Linux self-hoster: I design, deploy, and administer production microservices, reverse proxies (Caddy), and cloud storage infrastructure on independent VPS nodes.
+I also run my own Linux servers: a few VPS nodes with microservices behind Caddy and my own cloud storage.
 
----
-
-## Flagship Projects
+## Projects
 
 ### [AnemosWorks](https://github.com/pilotarbuza/anemosworks)
-AI automation engine and Model Context Protocol (MCP) server for SOLIDWORKS and Autodesk Fusion. Enables AI-assisted parametric modeling, CSG feature tree generation, technical drafting per standard tolerances, and engineering simulation checks.
+A CAD automation engine and MCP server for SOLIDWORKS and Autodesk Fusion. It lets an AI client build parametric models, generate a feature tree from solid bodies, make drawings with standard tolerances and run engineering checks.
 
 ### [ANN (pilotann)](https://github.com/pilotarbuza/pilotann)
-Aviation documentation assistant, Telegram Mini App and PWA. Features semantic RAG search across flight operations manuals, automated METAR/TAF weather decoding, and SimBrief dispatch integration.
+An aviation documentation assistant that runs as a Telegram Mini App and a PWA. It searches flight operations manuals by meaning, decodes METAR and TAF, and pulls flight plans from SimBrief.
 
-### [Aviation Cloud Library](https://m.pilotarbuza.com)
-Structured open technical documentation repository for civil aviation (Boeing, Airbus, regional jets). Deployed on a self-hosted Nextcloud instance with automated metadata indexing.
+### [Aviation cloud library](https://m.pilotarbuza.com)
+An open collection of civil aviation documentation (Boeing, Airbus, regional jets) on my own Nextcloud server, with metadata indexed automatically.
 
-### UAV Aerodynamic Design
-Fixed-wing UAV development project at Selcuk University. Aerodynamic performance, lift-to-drag validation, and structural integrity modeled in SOLIDWORKS and verified in Ansys.
+### Fixed-wing UAV
+My UAV project at Selçuk University. I model the aerodynamics, lift-to-drag ratio and structure in SOLIDWORKS and check them in Ansys.
 
-### [Photography & Visual Stories](https://photo.pilotarbuza.com)
-Editorial landscape expeditions and civil/military aviation spotting across Russia, Turkey, and the Caucasus. Fast static architecture backed by high-resolution Adobe Cloud CDN delivery.
+### [Photography](https://photo.pilotarbuza.com)
+Mountain trips and civil and military aircraft spotting in Russia, Türkiye and the Caucasus. The site is static, with full-size photos served from the Adobe Cloud CDN.
 
----
+## Tools I use
 
-## Technical Stack
+- CAD and simulation: SOLIDWORKS, Autodesk Fusion 360, Ansys, AutoCAD, Inventor, GOST drafting
+- Languages: Python 3.9+, TypeScript and JavaScript, Bash, SQL (SQLite), C/C++
+- Infrastructure: Linux (Debian, Ubuntu), Caddy, systemd, Docker, self-hosted Nextcloud, Git
+- Aviation: FCOM, QRH and MEL documents, aerodynamic simulation, SimBrief API, METAR decoding, MCP
 
-- **CAD & Simulation:** SOLIDWORKS, Autodesk Fusion 360, Ansys, AutoCAD, Inventor, GOST technical drafting
-- **Languages & Backend:** Python 3.9+, TypeScript / JavaScript, Bash, SQL (SQLite), C/C++
-- **Infrastructure & Systems:** Linux (Debian / Ubuntu), Caddy reverse proxy, systemd, Docker, Nextcloud self-hosting, Git / GitHub
-- **Aviation & Protocols:** FCOM / QRH / MEL documentation systems, aerodynamic simulation, SimBrief API, METAR decoding, Model Context Protocol (MCP)
+## Education
 
----
+- Selçuk University, Konya: BSc Mechanical Engineering, 2nd year (Türkiye Scholarships)
+- SibSUTIS, Russia: BSc Computer Engineering, distance learning
+- Sukhoi Design Bureau, 2024: finalist of the 20th Aviation Olympiad
+- Languages: Russian (native), Turkish (C1, TÖMER), English (B2, EF SET)
 
-## Education & Recognition
+## Contact
 
-- **Selcuk University (Konya, Türkiye):** BSc Mechanical Engineering (2nd year, Türkiye Scholarships)
-- **SibSUTIS (Russia):** BSc Computer Engineering (distance)
-- **Sukhoi Design Bureau (2024):** Finalist, XX Aviation Olympiad
-- **Languages:** English (B2 · EF SET), Turkish (C1 · TÖMER), Russian (Native)
-
----
-
-## Connect
-
-- **Personal Portfolio:** [pilotarbuza.com](https://pilotarbuza.com)
-- **Photography Gallery:** [photo.pilotarbuza.com](https://photo.pilotarbuza.com)
-- **LinkedIn:** [linkedin.com/in/maksim-akhmadulin](https://www.linkedin.com/in/maksim-akhmadulin-969459440)
-- **Telegram:** [@pilot_arbuza](https://t.me/pilot_arbuza) / [@pilotann_bot](https://t.me/pilotann_bot)
-- **Email:** akhmadulinmaksim@gmail.com
+- Website: [pilotarbuza.com](https://pilotarbuza.com)
+- Photos: [photo.pilotarbuza.com](https://photo.pilotarbuza.com)
+- LinkedIn: [maksim-akhmadulin](https://www.linkedin.com/in/maksim-akhmadulin-969459440)
+- Telegram: [@pilot_arbuza](https://t.me/pilot_arbuza), bot [@pilotann_bot](https://t.me/pilotann_bot)
+- Email: akhmadulinmaksim@gmail.com
